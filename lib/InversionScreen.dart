@@ -54,7 +54,7 @@ class InversionScreen extends StatelessWidget {
     List<int> arr = [1, 20, 6, 4, 5];
 
     return Scaffold(
-      appBar: AppBar(title: Text('Inversion Task')),
+      appBar: AppBar(title: Text('Inversion Task'), centerTitle: true),
       body: Center(
         child: Text(
           'Total inversions: ${countInversions(arr)}',
